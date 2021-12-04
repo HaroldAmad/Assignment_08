@@ -28,3 +28,11 @@ def guess ():
 
 winningFunc = lottery()
 userFunc = guess()
+
+def result():
+    if userFunc == winningFunc:
+        print("------Winner!------")
+    else:
+        print("------You loss!------")
+
+resultFunc = result()
