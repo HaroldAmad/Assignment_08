@@ -36,3 +36,13 @@ def result():
         print("------You loss!------")
 
 resultFunc = result()
+
+try_Again = 'yes'
+while try_Again [0] == 'y':
+    try_Again = input('Try again? (y or n): ')
+    if try_Again == 'y':
+        lottery()
+        guess()
+        result()
+    else:
+        break
