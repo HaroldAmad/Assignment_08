@@ -10,7 +10,7 @@ def lottery ():
             number = random.randint(0,9)
 
         winningNumbers.append(number)
-    winningNumbers.sort
+    winningNumbers.sort()
     return winningNumbers
 
 def guess ():
@@ -23,7 +23,7 @@ def guess ():
                 hula = int(input("Enter Your number between 0 and 9: "))
     
         userGuess.append(hula)
-    userGuess.sort
+    userGuess.sort()
     return userGuess
 
 winningFunc = lottery()
